@@ -1,5 +1,6 @@
 package models;
 
+//TODO: Need to add security/validation lengths to these inputs.
 public class User {
 	private int id;
 	

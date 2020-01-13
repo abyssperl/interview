@@ -2,6 +2,7 @@ package models;
 
 import java.util.List;
 
+//TODO: Need to add security/validation lengths to these inputs.
 public class Receipe {
 	private int id;
 	private String receipeName;

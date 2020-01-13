@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class Example {
+	//TODO: Use this page as an example of how to handle edge cases, errors, invalid sessions, etc.
 	@RequestMapping("/heartbeat")
 	@ResponseBody
 	public String hello() {

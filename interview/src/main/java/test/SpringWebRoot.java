@@ -1,14 +1,13 @@
 package test;
+
 import java.util.Arrays;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.jdbc.core.JdbcTemplate;
 
 
 @SpringBootApplication
@@ -19,6 +18,8 @@ public class SpringWebRoot {
         SpringApplication.run(SpringWebRoot.class, args);
     }
 
+    //TODO: Need to setup logging here.
+    
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
